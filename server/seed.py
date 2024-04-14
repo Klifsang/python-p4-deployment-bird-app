@@ -1,5 +1,5 @@
 from app import app
-from models import db, Bird
+from server.models import db, Bird
 
 db.init_app(app)
 
